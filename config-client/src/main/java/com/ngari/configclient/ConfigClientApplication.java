@@ -17,11 +17,20 @@ public class ConfigClientApplication {
 	@Value("${foo}")
 	String foo;
 
+	@Value("${democonfigclient.message}")
+	String democonfigclient;
+
 
 
 	@RequestMapping(value = "/hi")
 	public String hi(){
 		return foo;
+	}
+
+
+	@RequestMapping(value = "/hello")
+	public String hello(){
+		return democonfigclient;
 	}
 
 }
