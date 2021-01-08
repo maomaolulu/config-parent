@@ -1,10 +1,10 @@
-package com.ngari.configserver;
+package com.ngari.configclient;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigServerApplicationTests {
+class ConfigClientApplicationTests {
 
 	@Test
 	void contextLoads() {
